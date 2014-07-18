@@ -40,14 +40,12 @@ public static class UString
 		if (double.TryParse (s, out i))
 			return i;
 		return def;
-
 	}
 
 	public static string Format(this string s, params object[] args)
 	{
 		return string.Format (s, args);
 	}
-
 
 }
 
